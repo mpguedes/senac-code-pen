@@ -1,7 +1,7 @@
 # senac-code-pen
 Aula Senac CodePen
 
-Acessar o site Code Pen
+Acessar o site [Code Pen](https://codepen.io/)
 
 Iniciar com os seguintes conteúdos:
 
