@@ -31,7 +31,7 @@ body {
 const userAction = async () => {
    const div = document.getElementById("container");
    div.innerHTML = "Consultando....";
-   const response = await fetch('[https://api.exchangerate.host/latest](https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_Y1R9HTwgr7yG7Runcn6CNgM4gVMGUa3vnuZ9xVUl)');
+   const response = await fetch('https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_Y1R9HTwgr7yG7Runcn6CNgM4gVMGUa3vnuZ9xVUl');
    const myJson = await response.json(); 
    const brl = myJson["data"]["BRL"];
    div.innerHTML = `1 Dollar vale ${new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(brl)} hoje`; 
